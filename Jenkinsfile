@@ -1,5 +1,5 @@
 
-library identifier: 'pipeline-library@master', existingLibrariesUsed: false, retriever: modernSCM(
+library identifier: 'pipeline-library@master', existingLibrariesUsed: true, retriever: modernSCM(
   [$class: 'GitSCMSource',
    remote: 'https://github.com/jenkinspipelinetesting/test-pipeline-library.git'
    ])
